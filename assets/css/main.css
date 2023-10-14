@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+/*padrao*/
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +18,45 @@ body{
     --branco: #fff;
     --azul-claro: #A8C8FB;
     --verde-claro: #00BF63;
+    --verde-escuro: #1ab86b;
+    --roxo-logo: #b24fff;
 }
+.icon-branco {
+    color: var(--branco);
+    fill: var(--branco);
+}
+/*whatsapp*/
+.whatsapp-flutuante {
+    width: 45px;
+    height: 45px;
+    background-color: var(--preto-medio);
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 0 66px var(--branco);
+}
+.icon-whatsapp-flutuante {
+    font-size: 30px;
+}
+@media screen and (min-width: 760px){
+    .whatsapp-flutuante {
+        display: flex;
+        bottom: 40px;
+        right: 40px;
+        width: 50px;
+        height: 50px;
+    }
+    .icon-whatsapp-flutuante {
+        font-size: 34px;
+    }
+}
+/*home*/
 
 .inicio-home{
     min-height: 90vh;

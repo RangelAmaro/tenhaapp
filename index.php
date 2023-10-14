@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <a href="https://api.whatsapp.com/send?phone=5519983051115" class="whatsapp-flutuante whatsapp-flutuante-deslog">
+      <i class="icon-whatsapp icon-branco icon-whatsapp-flutuante"></i>
+    </a>
     <div class="inicio-home">
         <section class="branding-app">
             <div class="chamado-home">
