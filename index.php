@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenha App</title>
     <meta name="description" content="Transforme seu site em um aplicativo nativo">
-    <link rel="stylesheet" href="/assets/css/folha.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/font/style.css">
 </head>
 
