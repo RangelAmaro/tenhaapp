@@ -47,7 +47,7 @@
         </section>
         <span class="role-pra-baixo-home">
                 <p>Role para baixo</p>
-                <img class="w-45px" src="assets/img/seta-baixo.gif" alt="Role para baixo">
+                <img src="assets/img/seta-baixo.gif" alt="Role para baixo">
         </span>
     </div>
 <br><br><br><br><br>
