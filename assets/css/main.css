@@ -8,18 +8,19 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--branco);
-    color: var(--preto-medio);
+    background-color: var(--preto-escuro);
+    color: var(--branco);
 }
 
 :root{
-    --preto-escuro: #000;
+    --preto-escuro: #0a0a0a;
     --preto-medio: #1F1F1F;
     --branco: #fff;
     --azul-claro: #A8C8FB;
     --verde-claro: #00BF63;
     --verde-escuro: #1ab86b;
-    --roxo-logo: #b24fff;
+    --roxo-logo-claro: #b552ff;
+    --roxo-logo-escuro: #6C00BF;
 }
 .icon-branco {
     color: var(--branco);
@@ -39,7 +40,7 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    box-shadow: 0 0 65px var(--branco);
+    border: 2px solid var(--branco);
 }
 .icon-whatsapp-flutuante {
     font-size: 30px;
@@ -60,13 +61,11 @@ body{
 
 .inicio-home{
     min-height: 90vh;
-    background-image: url("/assets/img/arte-roxa-bg-3.jpg");
     background-color: var(--preto-escuro);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
     color: var(--branco);
-    box-shadow: 0px 15px 15px 10px rgba(0,0,0,1);
 }
 
 .branding-app{

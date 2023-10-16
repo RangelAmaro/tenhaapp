@@ -8,6 +8,7 @@
     <meta name="description" content="Transforme seu site em um aplicativo nativo">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/font/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon-profundidade.png">
 </head>
 
 <body>
@@ -54,7 +55,8 @@
         </span>
     </div>
 <br><br><br><br><br>
-    <h1>ola mundo</h1>
+    <p>video</p>
+    <p>ação</p>
 </body>
 
 </html>
