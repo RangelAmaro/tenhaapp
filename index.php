@@ -12,51 +12,30 @@
 </head>
 
 <body>
-    <a href="https://api.whatsapp.com/send?phone=5519983051115" class="whatsapp-flutuante whatsapp-flutuante-deslog">
-      <i class="icon-whatsapp icon-branco icon-whatsapp-flutuante"></i>
-    </a>
-    <div class="inicio-home">
-        <section class="branding-app">
-            <div class="chamado-home">
-                <p>SUA EMPRESA NO <strong>CELULAR DO CLIENTE</strong></p>
-            </div>
-            <div class="play-store-view">
-                <div class="info-app">
-                    <img src="assets/img/logo-roxa.png" alt="Logo Tenha App">
-                    <div class="info-info-app">
-                        <h1>Tenha App</h1>
-                        <h2>Tenha App</h2>
-                        <h3>Compras no app</h3>
-                    </div>
-                </div>
-                <div class="dados-app-play-store">
-                    <span>
-                        <p class="estrelas-app" >4,9 <i class="icon-star-full"></i></p>
-                        <p class="descrição-dados-app" >116 avaliações</p>
-                    </span>
-                    <span class="borda-dupla-dir-esq" >
-                        <i class="icon-box-add"></i>
-                        <p class="descrição-dados-app" >9,0 MB</p>
-                    </span>
-                    <span class="livre" >
-                        <span class="l-livre" >
-                            L
-                        </span>
-                    </span>
-                </div>
-                <a href="#" class="acao-play-store" >
-                Criar meu aplicativo
-                </a>
-            </div>
+    <main class="main-home">
+        <header>
+            <img src="/assets/img/logo-1(branca).png" alt="logo tenha app">
+        </header>
+        <section class="orcamento">
+            <h1>Converta seu site em app</h1>
+            <form action="processa_formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="link">Link:</label>
+                <input type="text" id="link" name="link" required><br>
+
+                <input type="submit" value="Enviar">
+            </form>
         </section>
-        <span class="role-pra-baixo-home">
-                <p>Role para baixo</p>
-                <img src="assets/img/seta-baixo.gif" alt="Role para baixo">
-        </span>
-    </div>
-<br><br><br><br><br>
-    <p>video</p>
-    <p>ação</p>
+        <div class="explica-home">
+            <h2>Oque acontece <strong>depois?</strong></h2>
+            <p>Vamos entrar em contato e te enviar o nosso orçamento, e esclarecer dúvidas</p>
+        </div>
+    </main>
 </body>
 
 </html>

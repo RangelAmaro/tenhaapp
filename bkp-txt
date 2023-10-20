@@ -1,0 +1,161 @@
+<div class="play-store-view">
+                <div class="info-app">
+                    <img src="assets/img/logo-roxa.png" alt="Logo Tenha App">
+                    <div class="info-info-app">
+                        <h1>Tenha App</h1>
+                        <h2>Tenha App</h2>
+                        <h3>Compras no app</h3>
+                    </div>
+                </div>
+                <div class="dados-app-play-store">
+                    <span>
+                        <p class="estrelas-app" >4,9 <i class="icon-star-full"></i></p>
+                        <p class="descrição-dados-app" >116 avaliações</p>
+                    </span>
+                    <span class="borda-dupla-dir-esq" >
+                        <i class="icon-box-add"></i>
+                        <p class="descrição-dados-app" >9,0 MB</p>
+                    </span>
+                    <span class="livre" >
+                        <span class="l-livre" >
+                            L
+                        </span>
+                    </span>
+                </div>
+                <a href="#" class="acao-play-store" >
+                Criar meu aplicativo
+                </a>
+</div>
+.branding-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+}
+
+.branding-app .play-store-view{
+    box-shadow: var(--preto-medio) 0px 3px 8px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: var(--preto-medio);
+    width: 75%;
+    max-width: 800px;
+    display: grid;
+}
+
+.info-app{
+    display: flex;
+    gap: 9px;
+}
+
+.info-app img{
+    width: 70px;
+    height: 70px;
+}
+
+.info-info-app h1{
+    text-transform: uppercase;
+}
+
+.info-info-app h2{
+    color: var(--azul-claro);
+    font-size: 110%;
+}
+
+.info-info-app h3{
+    font-size: 85%;
+    font-weight: 400;
+}
+
+
+.dados-app-play-store{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    width: 100%;
+}
+.dados-app-play-store span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.borda-dupla-dir-esq{
+    border-left: 1px var(--branco) solid;
+    border-right: 1px var(--branco) solid;
+}
+
+.descrição-dados-app{
+    font-size: 75%;
+}
+
+.livre .l-livre{
+    background-color: var(--verde-claro);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acao-play-store{
+    width: 100%;
+    background-color: var(--azul-claro);
+    padding: 9px 0;
+    color: var(--preto-medio);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 55px;
+    margin: 9px 0;
+}
+
+.chamado-home{
+    width: 75%;
+    max-width: 800px;
+    padding: 15px 22px;
+    background-color: rgb(255 255 255 / 13%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.chamado-home p{
+    font-size: 200%;
+}
+
+.role-pra-baixo-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.role-pra-baixo-home p{
+    text-align: center;
+    font-size: 80%;
+    margin-bottom: 3px;
+}
+.role-pra-baixo-home img{
+    width: 15vh;
+    height: 15vh;
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 760px){
+    .branding-app{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .branding-app .chamado-home {
+        width: 40%;
+    }
+    .branding-app .play-store-view{
+        width: 40%;
+    }
+}
